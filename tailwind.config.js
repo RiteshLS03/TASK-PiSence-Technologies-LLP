@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bg-black": "#d9d9d9",
+      },
+    },
     letterSpacing: {
       tightest: "-.075em",
       tighter: "-.05em",
@@ -10,7 +14,6 @@ module.exports = {
       normal: "0",
       wide: ".025em",
       wider: ".05em",
-      // widest: '.1em',
       widest: ".25em",
     },
   },
